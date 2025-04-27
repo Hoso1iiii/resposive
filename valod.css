@@ -1,0 +1,33 @@
+body{
+    background-image:url(pexels-juanpphotoandvideo-1242348.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#glux{
+    color: white;
+    text-align: center;
+}
+#rickroll{
+    background-color: rgb(201, 96, 5);
+    color: white;
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+ position: relative; 
+ left: 500px;
+}
+#flom{
+   text-align: center;
+}
+@media  (max-width: 250px) {
+    img{
+        width: 100px;
+        height: 100px;
+        margin-right: 500px;
+    }
+    body{
+        background-color: rgb(0, 128, 255);
+        background-image: none;
+    }
+}
